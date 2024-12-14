@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/eliclaggett/HeyGen-Video-Translation-Client/refs/heads/main/assets/heygen_modified.svg" width="500"></a>
+  <img src="https://raw.githubusercontent.com/eliclaggett/HeyGen-Video-Translation-Client/refs/heads/main/assets/heygen_modified.svg" width="300"></a>
   <br>
   HeyGen Video Translation Client
 </h1>
@@ -98,7 +98,7 @@ $ npm run test-cli
 After the test results are displayed, close the program by typing `Ctrl + C`.
 
 
-**Random Delay Configuration**
+**Mock Server Processing Time Configuration**
 By default the mock server will process requests in a random timespan uniformly distributed between 3000ms &plusmn; 2000ms. The center and variance of this distribution can be configured using environment variables.
 
 Example 1 ) Set the processing delay to exactly 1000ms.
@@ -119,6 +119,13 @@ $ npm run test-ui
 ```
 
 Then, open the application in your web browser at `http://localhost:5173`. When you are finished testing, close the program by typing `Ctrl + C`.
+
+The processing time of the mock server can also be configured for the UI example following the same method described in [Testing](#Testing). Here, we set it to respond instantly.
+
+```bash
+$ DELAY=0 DELAY_VAR=0 npm run test-ui
+```
+
 
 ## Author
 
