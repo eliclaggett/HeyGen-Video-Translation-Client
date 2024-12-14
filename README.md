@@ -50,7 +50,7 @@ You can contribute to the development of this library by installing the required
 
 Then modify the `/src` files as desired, and run:
 
-`$ npm run build`
+`$ npm run build` to update the bundled files in `/dist`.
 
 The functionality of the library can be tested following the instructions in [Testing](#Testing)
 
