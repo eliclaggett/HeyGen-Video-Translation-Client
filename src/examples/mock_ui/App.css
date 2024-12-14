@@ -1,0 +1,28 @@
+#fakeVideo svg {
+    position: absolute;
+    top: calc(50% - 2.5rem);
+    left: calc(50% - 2.5rem);
+    font-size: 5rem;
+}
+#fakeVideo span {
+    opacity: 0.5;
+}
+#fakeVideo {
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    width: 90%;
+    height: 360px;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    user-select: none;
+    cursor: default;
+}
+.MuiCircularProgress-root { 
+    color: white;
+}
+.hidden {
+    display: none !important;
+} 
