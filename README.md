@@ -34,18 +34,24 @@ Run the following command to install the client library.
 $ git clone https://github.com/eliclaggett/HeyGen-Video-Translation-Client.git
 ```
 
-Then, import the client library in your React project.
+Before doing any testing, please also install the required NPM packages.
+
+```bash
+$ npm install
+```
+
+To use this client in an existing React project, use the following code to import it.
 
 ```js
 import TranslationClient from './heygen-video-translation-client/dist/client';
 ```
 
-To see an example of this library in action, check out our [Examples](#Examples).
+To see an example of the library in action, check out our [Examples](#Examples).
 
 #### Local Development
 You can contribute to the development of this library by installing the required packages and modifying the 
 
-`$ npm run install` to install the required packages for the client library
+`$ npm install` to install the required packages for the client library
 `$ npm run postinstall` to install the required packages for the mock translation server
 
 Then modify the `/src` files as desired, and run:
